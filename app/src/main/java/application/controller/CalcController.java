@@ -46,7 +46,7 @@ public class CalcController {
             default:
                 break;
         }
-    ui.addAttribute("resultado", resultado);
+    ui.addAttribute("resultaado", resultado);
    return "calc/form";
 }
 }
